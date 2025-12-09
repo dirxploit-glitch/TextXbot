@@ -29,6 +29,7 @@ async function startBot() {
       console.clear();
       console.log("📌 Scan QR (60 sec valid)");
       qrcode.generate(qr, { small: true });
+      console.log(qr);
     }
 
     if (connection === "close") {
